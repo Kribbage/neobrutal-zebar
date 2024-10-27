@@ -3,6 +3,15 @@
 An Zebar configuration for Zebar V2 build in Svelte with Tailwind. If you are
 still using V1 of Zebar the old config is available in the [V1 branch](https://github.com/adriankarlen/neobrutal-zebar/tree/v1).
 
+Customized by Kribbage -
+
+ToDo
+- [ ] add keymap indicator for glaze
+- [ ] spotify now playing adjustment for pwa version
+- [ ] window title indicator
+- [ ] profiles to disable weather and battery
+- [ ] change icon to frog :)
+
 ## ✨ Features
 
 - Process icons for current workspace, with current focus indicator.
