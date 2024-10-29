@@ -11,6 +11,7 @@ ToDo
 - [ ] window title indicator
 - [ ] profiles to disable weather and battery
 - [ ] change icon to frog :)
+- [ ] add date to time
 
 ## ✨ Features
 

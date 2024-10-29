@@ -8,8 +8,10 @@
   <div class="flex items-center gap-1">
     {#each glazewm.allWorkspaces as workspace}
       {#each workspace.children as child}
-        {#if child.type == "window" && child.processName.toLowerCase() === "spotify"}
-          {#if child.title.toLowerCase() === "spotify premium"}
+        {#if child.type == "window" && child.processName === "chrome" && child.title
+            .toLowerCase()
+            .startsWith("spotify")}
+          {#if child.title.toLowerCase().endsWith("spotify")}
             <i class="ti ti-music-off text-zb-spotify-paused"></i>
             nothing is playing
           {:else}

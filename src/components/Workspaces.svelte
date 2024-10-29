@@ -24,9 +24,18 @@
     return entry?.iconName ?? "ti-background";
   };
 
-  let { glazewm } : { glazewm: GlazeWmOutput}= $props()
+  let { glazewm }: { glazewm: GlazeWmOutput } = $props();
 </script>
 
+{#if glazewm?.bindingModes[0]}
+  <div class="flex flex-row gap-2 items-center">
+    <span
+      class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+      >{glazewm.bindingModes[0].name ??
+        glazewm.bindingModes[0].displayName}</span
+    >
+  </div>
+{/if}
 {#if glazewm}
   <div class="flex flex-row gap-2 items-center">
     {#each glazewm.currentWorkspaces as workspace, i}
