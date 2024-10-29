@@ -32,5 +32,5 @@
     {/if}
   </div>
   <i class="ti ti-point-filled"></i>
-  {date?.new.toString()}
+  {date?.new.toString().split("(")[0].slice(0, -13)}
 </div>
