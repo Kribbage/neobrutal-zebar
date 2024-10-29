@@ -6,12 +6,13 @@ still using V1 of Zebar the old config is available in the [V1 branch](https://g
 Customized by Kribbage -
 
 ToDo
-- [ ] add keymap indicator for glaze
-- [ ] spotify now playing adjustment for pwa version
+- [x] add keymap indicator for glaze
+- [x] spotify now playing adjustment for pwa version
 - [ ] window title indicator
-- [ ] profiles to disable weather and battery
+- [ ] profiles/menu to disable weather and battery
 - [ ] change icon to frog :)
-- [ ] add date to time
+- [x] add date to time
+- [ ] fix workspace indicators shifting
 
 ## ✨ Features
 
